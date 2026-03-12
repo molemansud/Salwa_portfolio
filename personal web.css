@@ -181,16 +181,6 @@ position:absolute;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .projects .contant{
    display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -201,15 +191,6 @@ position:absolute;
     margin-left: -150px; */
   
 }
-
-
-
-
-
-
-
-
-
 
 
 .projects-card{
@@ -271,7 +252,7 @@ text-decoration: none;
     flex-direction: row;
     flex-wrap:wrap;
     background-color: rgb(255, 255, 255);
-    width:100%;
+   
 }
 .contact .icon{
     font-size:4.5em;
@@ -346,7 +327,7 @@ footer{
 }
  
 /* MOBILE */
-@media(max-width:640px){
+@media(max-width:501px){
 .projects{
    
     justify-content: center;
@@ -379,4 +360,35 @@ section{
     margin-left:0;
 }
 
+}
+
+@media screen and (max-width: 500px) {
+    header {
+      
+        padding: 10px;
+    }
+    .logo {
+        margin-left: 0;
+        font-size: 1.4em;
+       
+    }
+    .navigation {
+        flex-direction: row;
+        align-items: center;
+        row-gap: 2px;
+        font-size: 0.9em;
+    }
+    .contact .title {
+        font-size: 1.5em;
+    }
+    
+    .footer-title{
+    font-size:0.7em;
+   
+    }
+    .footer .social-icons a{
+    font-size:1.1em;
+   
+}
+    
 }
